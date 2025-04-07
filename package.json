@@ -1,8 +1,7 @@
 {
-  "name": "Teraboxx-api",
+  "name": "teraboxx-api",
   "version": "1.0.0",
   "main": "api/terabox.js",
-  "type": "module",
   "dependencies": {
     "playwright": "^1.42.1"
   }
