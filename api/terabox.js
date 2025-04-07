@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   const { url } = req.query;
 
   if (!url) {
@@ -9,4 +9,4 @@ export default function handler(req, res) {
     message: "TeraBox API working!",
     your_url: url
   });
-}
+};
